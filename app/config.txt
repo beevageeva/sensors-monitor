@@ -1,0 +1,51 @@
+[GENERAL]
+GrupoMedida=PR
+NumControllers=3
+
+
+
+[CONTROLLER1]
+Name=izquierdo
+Type=T
+Port=COM5
+Model=Random8
+NumChannels=8
+Channel1=Heater_1
+Channel2=Heater_2
+Channel3=CB_right
+Channel4=Frame_extreme
+Channel5=CB_left
+Channel6=Actuator
+Channel7=Frame_near_act
+Channel8=Frame_middle
+
+[CONTROLLER3]
+Name=derecho
+Type=T
+Port=COM4
+Model=Random8
+NumChannels=8
+Channel1=Anclaje BF
+Channel2=Centro BF
+Channel3=1er grupo R
+Channel4=2º grupo R
+Channel5=CCC1 Anclaje U pieza cierre
+Channel6=CCC1 Interfaz Cu
+Channel7=CCC1 Anclaje U cuerpo principal
+Channel8=Caja getter
+
+
+
+[CONTROLLER2]
+Name=Presion1
+Type=P
+Port=COM1
+Model=Random6
+NumChannels=6
+Channel1=no usado
+Channel2=Turbo
+Channel3=Auxiliar
+Channel4=Camara_vacio
+Channel5=canal5
+Channel6=canal6
+

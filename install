@@ -1,0 +1,4 @@
+instlalar python , python-wxgtk2.8 , python-matplotlib , python-serial ,python-numpy
+en app:
+python app.py [<configfile>]
+si omites  configfile coge config.txt del mismo dir
